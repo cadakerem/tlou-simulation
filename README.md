@@ -4,7 +4,7 @@ This project translates a visual Machinations.io system analysis of *The Last of
 
 ## Overview
 
-The simulation runs for 100 steps and tests three different player profiles (Pro, Normal, and Noob) against identical environmental and combat conditions.
+The simulation runs for 100 steps and tests three different player profiles (Pro, Normal, and Noob) against identical environmental and combat conditions. All core game variables and difficulty settings (such as base enemy damage, spawn rates, and maximum health) are exposed and fully configurable via the new `config.py` file.
 
 ### Player Profiles
 * **Pro Player:** High scavenging efficiency (60%), takes less damage (0.7x), favors Molotovs when healthy (HP > 70) but shifts toward Medkits when HP drops to 70 or below.
@@ -27,14 +27,17 @@ The simulation runs for 100 steps and tests three different player profiles (Pro
 ## Output
 Running the script outputs a graphical chart (`simulation_results.png`) showing the three players' HP trajectories over 100 steps, with the five Bloater spike steps marked. It illustrates how resource scarcity in the late game leads to death loops for less efficient players.
 
+![Simulation Results](simulation_results.png)
+
 **On randomness:** the script uses no fixed random seed, so exact death counts will differ between runs. What stays consistent across runs is the *pattern*: the Pro Player reliably survives with the fewest deaths, the Noob Player reliably struggles the most, and the Normal Player falls in between — matching the original Machinations model's conclusion that survival is governed by the relationship between inventory limitations and escalating enemy pressure, not by any single lucky run.
 
 ## How to Run
 
 1. Ensure you have Python installed.
 2. Install `matplotlib` if you haven't already (`pip install matplotlib`).
-3. Run the script:
+3. (Optional) Adjust game mechanics and difficulty by editing `config.py`.
+4. Run the script:
    ```bash
    python simulation.py
    ```
-4. View the generated `simulation_results.png` graph.
+5. View the generated `simulation_results.png` graph.
