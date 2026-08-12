@@ -1,6 +1,6 @@
 # The Last of Us - Survival Resource & Combat Simulation
 
-This project translates a visual Machinations.io system analysis of *The Last of Us* into a quantitative Python simulation. It models the core tension loop between resource scavenging, crafting decisions, and escalating combat difficulty.
+This project translates a visual [Machinations.io system analysis](https://my.machinations.io/d/tlou-survival-loop-simulation/7a7ce51a522611f190390abc5ce0dcc9) of *The Last of Us* into a quantitative Python simulation. It models the core tension loop between resource scavenging, crafting decisions, and escalating combat difficulty.
 
 ## Overview
 
