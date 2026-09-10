@@ -31,7 +31,7 @@ Running the script outputs a graphical chart (`simulation_results.png`) showing 
 
 **On randomness:** the script uses no fixed random seed, so exact death counts will differ between runs. What stays consistent across runs is the *pattern*: the Pro Player reliably survives with the fewest deaths, the Noob Player reliably struggles the most, and the Normal Player falls in between — matching the original Machinations model's conclusion that survival is governed by the relationship between inventory limitations and escalating enemy pressure, not by any single lucky run.
 
-## How to Run
+## 📦 How to Run
 
 1. Ensure you have Python installed.
 2. Install `matplotlib` if you haven't already (`pip install matplotlib`).
