@@ -41,3 +41,13 @@ Running the script outputs a graphical chart (`simulation_results.png`) showing 
    python simulation.py
    ```
 5. View the generated `simulation_results.png` graph.
+
+## 🧑‍💻 Developer & Contributions
+Developed by Kerem Barbaros Karnabat (@cadakerem).
+
+> **Note on Repository Structure:** [TODO: Add any specific notes about the repository structure here, e.g., source vs build artifacts.]
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [Issues page](../../issues).
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
