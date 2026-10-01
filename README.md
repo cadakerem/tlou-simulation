@@ -43,7 +43,7 @@ Running the script outputs a graphical chart (`simulation_results.png`) showing 
 5. View the generated `simulation_results.png` graph.
 
 ## 🧑‍💻 Developer & Contributions
-Developed by Kerem Barbaros Karnabat (@cadakerem).
+Developed by Kerem Barbaros Karnabat ([@cadakerem](https://github.com/cadakerem)).
 
 > **Note on Repository Structure:** The core game loop and mathematical modeling are housed in `simulation.py`, while all tweakable difficulty variables, spawn rates, and health constraints are decoupled into `config.py` for easy experimentation. Running the simulation automatically generates and overwrites the `simulation_results.png` graph.
 
