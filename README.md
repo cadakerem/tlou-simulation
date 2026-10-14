@@ -1,5 +1,7 @@
 # 🧟 The Last of Us - Survival Resource & Combat Simulation
 
+> 🎓 **Academic Project Disclaimer:** This project was developed for educational and academic coursework purposes to analyze game design economy and resource scarcity loops. *The Last of Us* is a registered trademark of Sony Interactive Entertainment and Naughty Dog LLC. This repository is strictly an academic study and is not affiliated with, endorsed by, or sponsored by Sony Interactive Entertainment or Naughty Dog.
+
 This project translates a visual [Machinations.io system analysis](https://my.machinations.io/d/tlou-survival-loop-simulation/7a7ce51a522611f190390abc5ce0dcc9) of *The Last of Us* into a quantitative Python simulation. It models the core tension loop between resource scavenging, crafting decisions, and escalating combat difficulty.
 
 ## 📖 Overview
@@ -50,4 +52,4 @@ Developed by Kerem Barbaros Karnabat ([@cadakerem](https://github.com/cadakerem)
 Contributions, issues, and feature requests are welcome! Feel free to check the [Issues page](../../issues).
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENSE). Commercial distribution, sale, or repackaging for profit is strictly prohibited..
+This project is licensed under the [MIT License](LICENSE).
